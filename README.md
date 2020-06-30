@@ -1,3 +1,20 @@
+## AWS S3 bucket policy
+`
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1569048588734",
+    "Statement": [
+        {
+            "Sid": "Stmt1569048587703",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::<bucket-name>/*"
+        }
+    ]
+}
+`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
