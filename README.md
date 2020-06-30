@@ -1,5 +1,5 @@
 ## AWS S3 bucket policy
-`
+```json
 {
     "Version": "2012-10-17",
     "Id": "Policy1569048588734",
@@ -13,7 +13,7 @@
         }
     ]
 }
-`
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
